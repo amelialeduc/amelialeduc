@@ -1,0 +1,38 @@
+/* css.css */
+/* amelie leduc */
+/* 22/04/2020 */
+
+h1, h2 {
+
+    /* pour que les eux élément est le meme style, regle commune */
+
+}
+
+h1{
+    color : darkred;
+    font-size: 50px;
+
+}
+
+h2{
+    color : cornflowerblue;
+    font-size: 2.5em;
+}
+
+
+
+/* peut utiliser px em et % */
+
+img{
+    width: 50%;
+    width: 50%;
+}
+
+
+P{
+    text-align: justify;
+}
+
+
+
+[] {} <> "" /

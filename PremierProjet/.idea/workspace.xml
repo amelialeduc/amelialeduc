@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e506daa-573a-41c6-8b90-fbccbf9f1690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/etude.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loisirs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JeMePresente2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JeMePresente2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JeMePresente2/media/Auberge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JeMePresente2/media/Bureau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JeMePresente2/media/amelia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JeMePresente2/media/kayak.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/amelia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etude.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loisirs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,10 +39,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/media" />
     </key>
   </component>
@@ -61,7 +60,7 @@
       <updated>1586390080893</updated>
       <workItem from="1586390082089" duration="7291000" />
       <workItem from="1586400250890" duration="33000" />
-      <workItem from="1587564712684" duration="721000" />
+      <workItem from="1587564712684" duration="4445000" />
     </task>
     <servers />
   </component>
@@ -69,6 +68,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="701" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587595192294">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="701" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1587595192294" />
     <state x="37" y="568" key="SettingsEditor" timestamp="1586400280857">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
