@@ -2,6 +2,18 @@
 /* Par Amélie Leduc */
 /*Le 22-04-2020 */
 
+{
+    margin:0;
+    padding:0;
+
+}
+
+#wrapper{
+    width:960px;
+    margin:0 auto 0 auto;
+
+}
+
 
 #nav {
     height:50px;
@@ -9,22 +21,57 @@
 
 
 
-#wrapper{
-    width:960px;
-    margin:0 auto 0 auto;
-
 nav li{
-
-
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    float: left;
+    padding:0 50px 0 50px;
+    line-height:50px;
 }
 
 nav ul{
+    float:left;
+    margin-right:50px;
+}
 
+nav a:link, nav a:visited{
+
+    color:grey;
+    text-decoration:none;
+}
+
+
+h1, h2, h3{
+    font-family: Raleway;
+}
+
+
+tr{
+    font-family: Raleway;
+}
+
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30em;
+}
+
+
+#vincent{
+   width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+a{
+    color: dimgrey;
+}
+
+a:visited{
+    color: lightgrey;
 }
 
 
 
 
-nav a:hover{
 
-}
