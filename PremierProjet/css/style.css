@@ -2,13 +2,27 @@
 /* amelie leduc */
 /* 22/04/2020 */
 
+body{
+    width: 100% ; /*Largeur du site*/
+    margin: auto; /* pour centrer le site en largeur */
+    background: url("../media/amelia.png") no-repeat center ;
+}
+
+
+
 h1, h2 {
 
     /* pour que les eux élément est le meme style, regle commune */
 
 }
 
+h1:hover{
+
+    color: aqua;
+}
+
 h1{
+
     color : darkred;
     font-size: 50px;
 
@@ -21,11 +35,13 @@ h2{
 
 
 
-/* peut utiliser px em et % */
+/* peut utiliser px rem em et % */
 
 img{
     width: 50%;
     width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -33,6 +49,26 @@ P{
     text-align: justify;
 }
 
+a:visited{
+    color: cadetblue;
+}
 
+#titrebonjour {
+    color: beige;
+}
+
+#titrebonjour2{
+    color: aquamarine;
+}
+
+.titreRouges{
+    color:red;
+
+}
+
+.titreVert{
+
+    color: green;
+}
 
 [] {} <> "" /
