@@ -19,7 +19,12 @@
     height:50px;
 }
 
+body{
+    width: 980px; /*Largeur du site*/
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
 
+}
 
 nav li{
     font-family: 'Raleway', sans-serif;

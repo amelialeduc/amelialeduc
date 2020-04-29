@@ -3,14 +3,20 @@
 /* 22/04/2020 */
 
 body{
-    width: 100% ; /*Largeur du site*/
+    width: 900px; /* On pourrait aussi prendre 100% de la largeur */
     margin: auto; /* pour centrer le site en largeur */
     background: url("../media/amelia.png") no-repeat center ;
 }
 
 
+@font-face {
+    font-family: nomDeMaNouvellePolice;
+    src: url(../font/Overgrow-Demo.otf);
+}
+
 
 h1, h2 {
+    font-family: nomDeMaNouvellePolice;
 
     /* pour que les eux élément est le meme style, regle commune */
 
@@ -41,12 +47,19 @@ img{
     width: 50%;
     width: 50%;
     border-radius: 8px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+img:hover{
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 P{
     text-align: justify;
+    border-style: solid;
+    margin: 20px;
+    padding: 20px;
 }
 
 a:visited{
