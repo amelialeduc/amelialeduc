@@ -1,0 +1,66 @@
+/* css */
+/* Par amelie leduc */
+/* 29 avril 2020 */
+
+
+@font-face {
+    font-family: mafont;
+    src: url(../font/Starjedi.ttf);
+}
+
+
+body{
+    width: 1000px;
+    margin: auto;
+    background: url("../img/etoileMort.jpg") no-repeat ;
+    background-color: black;
+    margin: auto;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 140px;
+    color: yellow;
+    font-family: mafont;
+    margin: (0, 0, 0, 0);
+
+}
+
+h2, h3, h4{
+    color: white;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 72px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 44px;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.films{
+    color: yellow;
+}
+
+a{
+    color:white;
+    text-decoration: underline;
+}
