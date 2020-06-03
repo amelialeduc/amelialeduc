@@ -12,7 +12,8 @@
 body{
     width: 1000px;
     margin: auto;
-    background: url("../img/etoileMort.jpg") no-repeat ;
+    background-image: url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
     background-color: black;
     margin: auto;
 }
@@ -63,4 +64,5 @@ img{
 a{
     color:white;
     text-decoration: underline;
+    text-decoration-color: white;
 }
