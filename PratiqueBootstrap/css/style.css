@@ -17,3 +17,7 @@ hr{
     background-color: blue;
     height: 9rem;
 }
+
+#banner{
+    background-image: url(../"image/yo..png");
+}
