@@ -2,9 +2,19 @@
 /* Par amelie leduc */
 /* 17 juillet 2020 */
 
+.pt-5{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 
+.btn{
+    background-color: #5a6268;
+    stroke: none;
 
+}
 
 .fa, .fas{
     color: #4e555b;
