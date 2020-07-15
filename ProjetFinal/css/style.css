@@ -2,6 +2,31 @@
 /* Par amelie leduc */
 /* 17 juillet 2020 */
 
+
+
+h1{
+    text-align: center;
+    margin-top: 15rem;
+    color: white;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 15rem;
+    color: white;
+}
+
+
+
+#section1{
+    background-image:url("../img/room.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+}
+
 .pt-5{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
