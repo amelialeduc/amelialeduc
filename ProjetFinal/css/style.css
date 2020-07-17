@@ -39,8 +39,15 @@ h2{
     color: #5a6268;
 }
 
-h3, h4, h5{
+h3{
     color: #5a6268;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+h4, h5{
+    color: #5a6268;
+
 }
 
 
@@ -163,4 +170,9 @@ h6 a:hover {
     color: #5a6268;
     width: 35rem;
 
+}
+.textepropos{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
 }
