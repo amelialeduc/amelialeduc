@@ -121,6 +121,11 @@ h6 a:hover {
     color: #4e555b;
 }
 
+.fal fa{
+    color: #6c757d;
+}
+
+
 .parallax {
     /* L’image du Parallax */
     background-image: url("../img/texture3.jpg");
