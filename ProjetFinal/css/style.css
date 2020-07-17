@@ -217,3 +217,10 @@ h6 a:hover {
 .pluszize{
     height: 10rem;
 }
+
+
+
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    .column {
+        width: 50%;
+}
