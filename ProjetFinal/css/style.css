@@ -218,5 +218,38 @@ h6 a:hover {
 }
 
 
+@media only screen and (max-width: 480px){
+    .textedecouvrir{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
 
+    .titredecouvrir{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+
+    .ensavoirplus{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    .textedecouvrir{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .titredecouvrir{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .ensavoirplus{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
 
