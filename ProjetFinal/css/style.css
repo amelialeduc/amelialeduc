@@ -13,6 +13,11 @@ header {
 
 a{
     text-underline: none;
+    color: #5a6268;
+}
+
+a:hover{
+    color: #32383e;
 }
 
 hr{
