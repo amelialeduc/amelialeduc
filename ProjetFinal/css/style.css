@@ -121,10 +121,17 @@ h3, h4, h5{
     background-image: url("../img/band.jpg");
 }
 
+.six{
+    background-image: url("../img/produit.jpg");
+}
+
 .texteblanc{
     color: white;
     font-size: 5rem;
     margin-bottom: 15rem;
 }
 
-
+.jumbotron{
+    margin-bottom: 0;
+    margin-top: 0;
+}
