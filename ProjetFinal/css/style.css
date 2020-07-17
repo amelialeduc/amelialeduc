@@ -11,6 +11,8 @@ header {
     overflow: hidden;
 }
 
+
+
 a{
     text-underline: none;
     color: #5a6268;
@@ -119,7 +121,7 @@ h6 a:hover {
 
 .parallax {
     /* L’image du Parallax */
-    background-image: url("../img/texture.jpg");
+    background-image: url("../img/texture3.jpg");
     /* L’hauteur du Parallax */
     min-height: 500px;
     /* Création de l’effet */
@@ -155,6 +157,12 @@ h6 a:hover {
     background-image: url("../img/produit.jpg");
 }
 
+
+.huit{
+    background-image: url("../img/plante.jpg");
+}
+
+
 .texteblanc{
     color: white;
     font-size: 5rem;
@@ -173,11 +181,32 @@ h6 a:hover {
 .form-control{
     border-color: #5a6268;
     color: #5a6268;
-    width: 35rem;
-
 }
+
+
+.court{
+    border-color: #5a6268;
+    color: #5a6268;
+    width: 35rem;
+}
+
+
 .textepropos{
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+}
+
+
+.header2{
+    background-image: url("../img/paysage.jpg");
+}
+
+.header3{
+    background-image: url("../img/relax.jpg");
+}
+
+
+.pluszize{
+    height: 10rem;
 }
