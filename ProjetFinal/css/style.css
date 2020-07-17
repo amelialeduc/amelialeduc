@@ -4,11 +4,15 @@
 
 header {
     position: relative;
-    background-image:url("../img/paysage.jpg");
+    background-image: url("../img/paysage.jpg");
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+a{
+    text-underline: none;
 }
 
 hr{
@@ -38,6 +42,19 @@ h2{
 h3, h4, h5{
     color: #5a6268;
 }
+
+
+h6 a:link, h6 a:visited {
+    margin-bottom: 3rem;
+    color: #138496;
+    font-size: 1rem;
+}
+
+h6 a:hover {
+    color: lightgrey;
+}
+
+
 
 .dej{
     padding-left: 5rem;
@@ -75,13 +92,14 @@ h3, h4, h5{
     padding-right: 1rem;
 }
 
-
 .btn{
+    border-color: #5a6268;
     background-color: #5a6268;
-    stroke: none;
-    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
+
 
 .fa, .fas{
     color: #4e555b;
@@ -134,4 +152,15 @@ h3, h4, h5{
 .jumbotron{
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.icon{
+  padding-left: 60rem;
+}
+
+.form-control{
+    border-color: #5a6268;
+    color: #5a6268;
+    width: 35rem;
+
 }
