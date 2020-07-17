@@ -4,42 +4,18 @@
 
 header {
     position: relative;
-    background-color : black;
+    background-image:url("../img/paysage.jpg");
+    background-repeat: no-repeat;
     height: 100%;
-    min-height : 25rem;
     width: 100%;
     overflow: hidden;
 }
 
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX (-50%) translateY (- 50 %);
-    -moz-transform: translateX (-50%) translateY (- 50 %);
-    -webkit-transform : translateX (-50%) translateY (-50%);
-    transform: translateX (-50%) translateY (-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-}
-
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color : black;
-    opacity: 0.5;
-    z-index: 1;
+hr{
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
 }
 
 
@@ -47,8 +23,8 @@ h1{
     text-align: left;
     font-size: 3rem;
     padding-left: 5rem;
-    margin-top: 20rem;
-    margin-bottom: 15rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
     color: #5a6268;
 }
 
@@ -63,7 +39,10 @@ h3, h4, h5{
     color: #5a6268;
 }
 
-
+.dej{
+    padding-left: 5rem;
+    margin-bottom: 10rem;
+}
 
 #section1{
     background-image:url("../img/dejeuner.jpg");
@@ -74,7 +53,7 @@ h3, h4, h5{
 }
 
 #section2{
-    background-image:url("../img/fenetre.jpg");
+    background-image:url("../img/ipad.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -110,7 +89,7 @@ h3, h4, h5{
 
 .parallax {
     /* L’image du Parallax */
-    background-image: url("../img/pooja.jpg");
+    background-image: url("../img/texture.jpg");
     /* L’hauteur du Parallax */
     min-height: 500px;
     /* Création de l’effet */
@@ -121,12 +100,31 @@ h3, h4, h5{
 }
 
 .container-fluid2{
-    margin-top: 70px;
     background-color: white;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
 .deux{
-    background-image: url("../img/maison.jpg");
+    background-image: url("../img/lampe.jpg");
 }
+
+.trois{
+    background-image: url("../img/room2.jpg");
+}
+
+.quatre{
+    background-image: url("../img/food.jpg");
+}
+
+.cinque{
+    background-image: url("../img/band.jpg");
+}
+
+.texteblanc{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 15rem;
+}
+
+
