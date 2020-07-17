@@ -193,7 +193,7 @@ h6 a:hover {
 .court{
     border-color: #5a6268;
     color: #5a6268;
-    width: 35rem;
+    width: 21rem;
 }
 
 
@@ -219,7 +219,4 @@ h6 a:hover {
 
 
 
-@media screen and (min-width: 481px) and (max-width: 1199px){
-    .column {
-        width: 50%;
-}
+
