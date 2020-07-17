@@ -33,7 +33,7 @@ hr{
 h1{
     text-align: left;
     font-size: 3rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
     margin-top: 15rem;
     margin-bottom: 1rem;
     color: #5a6268;
@@ -72,7 +72,7 @@ h6 a:hover {
 
 
 .dej{
-    padding-left: 5rem;
+    padding-left: 2rem;
     margin-bottom: 5rem;
 }
 
@@ -97,6 +97,7 @@ h6 a:hover {
 .infolettre{
     margin-top: 5rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
     text-align: left;
 }
 
@@ -232,7 +233,13 @@ h6 a:hover {
     .ensavoirplus{
         margin-right: 4rem;
         margin-left: 4rem;
+        margin-bottom: 2rem;
     }
+
+    .header2{
+        background-image: url("../img/cour2.jpg");
+    }
+
 }
 
 
@@ -250,6 +257,11 @@ h6 a:hover {
     .ensavoirplus{
         margin-right: 2rem;
         margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .header2{
+        background-image: url("../img/femme3.jpg");
     }
 }
 
