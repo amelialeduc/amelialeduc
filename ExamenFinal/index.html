@@ -2,7 +2,7 @@
 
 <!-- index.html -->
 <!-- Par amelie leduc -->
-<!-- Le 17 juillet 2020 -->
+<!-- Le 23 Septembre 2021 -->
 
 
 <html lang="fr-ca">
@@ -21,6 +21,8 @@
 
 <body>
 
+
+    
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
 
@@ -29,46 +31,112 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav pt-2 mr-auto">
-            <li class="nav-item"><a class="nav-link" href="apropos.html">À propos <span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">À propos <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Project</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Blogue</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Contact</a></li>
         </ul>
     </div>
 
     <div>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-align-center"></i>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-center"></i>
+        </button>
+    
+           
+    
+       </div>
+    </nav>
 
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-facebook"></i>
-
-   </div>
 </nav>
 
 
-<header class="header2 h-100">
+<header>
 
-    <h1 class="texteblanc">L'auberge <br>pour s'évader</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
 
-</header>
-
+        
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="img/carousel1.jpg" alt="Femme">
+            </div>
+    
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/carousel1.jpg" alt="Femme">
+            </div>
+    
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/carousel1.jpg" alt="Femme">
+            </div>
+        </div>
+    
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div> <!-- Fin du carousel -->
+    
+    </header>
 
 
 
 <section>
-
-<div class="container-fluid" id="section1">
-
-    <div class="row no-gutters">
-        <div class=" col-12 col-md-12 col-xl-12">
-            <h1>Un univers<br>hors du commun</h1>
-            <p class="dej">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna <br>aliqua.
-                Quis ipsum suspendisse ultrices gravida. Risus <br>commodo viverra maecenas accumsan lacus vel facilisis. </p>
-        </div>
+    <div class="col-12 col-md-12 cl-xl-12 pt-5">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <h2>Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.</h2>
     </div>
-</div>
+</section>
+
+
+<section>
+
+    <div class="container-fluid" id="section1">
+        <div class="row align-items-center">
+
+        
+
+            <div class="col-12 col-md-6 col-xl-3">
+                <h1><i class="fas fa-desktop"></i></h1>
+                    <h4 class="titredecouvrir">Le confort</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button type="submit" class="btn btn-primary">More</button>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+                <h1><i class="fas fa-flask"></i></h1>
+                    <h4 class="titredecouvrir">Le bar</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button type="submit" class="btn btn-primary">More</button>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+                <h1><i class="fas fa-cogs"></i></h1>
+                    <h4 class="titredecouvrir">Les soirées</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button type="submit" class="btn btn-primary">More</button>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+                <h1><i class="fas fa-bullhorn"></i></h1>
+                    <h4 class="titredecouvrir">Les produits locaux</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button type="submit" class="btn btn-primary">More</button>
+            </div>
+        </div>
 
 </section>
 
@@ -80,37 +148,30 @@
         <div class="row align-items-center">
 
             <div class="col-12 col-md-12 cl-xl-12 pt-5">
-                    <h4>À Découvrir</h4>
-                    <hr>
+                <h1>Lorem ipsum dolor sit amet</h1>
+            <h2>Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.</h2>
             </div>
 
             <div class="col-12 col-md-6 col-xl-3">
-                <img src="img/confo.jpg" class="mx-auto d-block"/>
-                    <h4 class="titredecouvrir">Le confort</h4>
-                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h6 class="ensavoirplus"><a href="apropos.html">En savoir plus</a></h6>
+                <img src="img/orange1.jpg" class="mx-auto d-block"/>
             </div>
 
             <div class="col-12 col-md-6 col-xl-3">
-                <img src="img/drink2.jpg" class="mx-auto d-block"/>
-                    <h4 class="titredecouvrir">Le bar</h4>
-                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h6 class="ensavoirplus"><a href="apropos.html">En savoir plus</a></h6>
+                <img src="img/orange2.jpg" class="mx-auto d-block"/>
             </div>
 
             <div class="col-12 col-md-6 col-xl-3">
-                <img src="img/music.jpg" class="mx-auto d-block"/>
-                    <h4 class="titredecouvrir">Les soirées</h4>
-                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h6 class="ensavoirplus"><a href="apropos.html">En savoir plus</a></h6>
+                <img src="img/orange3.jpg" class="mx-auto d-block"/>
             </div>
 
             <div class="col-12 col-md-6 col-xl-3">
-                <img src="img/femme.jpg" class="mx-auto d-block"/>
-                    <h4 class="titredecouvrir">Les produits locaux</h4>
-                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h6 class="ensavoirplus"><a href="apropos.html">En savoir plus</a></h6>
+                <img src="img/orange4.jpg" class="mx-auto d-block"/>
             </div>
+            
+            <div></div>
+                <button type="submit" class="btn btn-primary">View Portfolio</button>
+             </div>
+
         </div>
 
 </section>
@@ -120,17 +181,56 @@
 
 <section>
 
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-12 cl-xl-12 pt-5">
+                    <hr>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="img/personne1.jpg" class="mx-auto d-block"/>
+                    <h4 class="titredecouvrir">Le confort</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h6 class="ensavoirplus"><a href="apropos.html">+ more</a></h6>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="img/personne2.jpg" class="mx-auto d-block"/>
+                    <h4 class="titredecouvrir">Le bar</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h6 class="ensavoirplus"><a href="apropos.html">+ more</a></h6>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="img/personne3.jpg" class="mx-auto d-block"/>
+                    <h4 class="titredecouvrir">Les soirées</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h6 class="ensavoirplus"><a href="apropos.html">+ more</a></h6>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="img/personne4.jpg" class="mx-auto d-block"/>
+                    <h4 class="titredecouvrir">Les produits locaux</h4>
+                <p class="textedecouvrir">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h6 class="ensavoirplus"><a href="apropos.html">+ more</a></h6>
+            </div>
+        </div>
+
+</section>
+
+
+
+
+
+
+<section>
+
         <div class="container-fluid" id="section2">
 
-            <div class="row no-gutters">
-                <div class=" col-12 col-md-12 col-xl-12">
-                    <h2 class="infolettre">Inscrivez-vous <br>à notre INFOLETTRE</h2>
-
-                    <form>
-                        <div class="row pt-5 court">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Adresse courriel">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+            <div>
+                <h1>Cras ornare tristique elit</h1>
+                <h2>Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis. </h2>
                         </div>
                     </form>
 
@@ -139,6 +239,9 @@
         </div>
 
 </section>
+
+
+
 
 
 
@@ -151,22 +254,18 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-12 col-md-3 cl-xl-3">
-                           <img src="img/logo.png"/>
-                        </div>
-
-                        <div class="col-12 col-md-3 cl-xl-3">
+                        <div class="col-12 col-md-3 cl-xl-4">
                             <h4>À propos</h4>
                             <p>Venez nous rendre visite, <br>il nous fera plaisir de vous recevoir</p>
                         </div>
 
-                        <div class="col-12 col-md-3 cl-xl-3">
+                        <div class="col-12 col-md-3 cl-xl-4">
                             <h4>Home</h4>
                             <p><a href="apropos.html">À propos</a></p>
                             <p><a href="contact.html">Contact</a></p>
                         </div>
 
-                        <div class="col-12 col-md-3 cl-xl-3">
+                        <div class="col-12 col-md-3 cl-xl-4">
                             <h4><a href="contact.html">Nous joindre</a></h4>
                             <p> <i class="fas fa-phone"></i> 1 800-659-8869 <br>1556, chemin de la petite cote, Charlevoix, Qc</p>
                             <i class="fab fa-instagram"></i>
@@ -179,6 +278,9 @@
             </div>
 
         </footer>
+
+
+
 
 
 
