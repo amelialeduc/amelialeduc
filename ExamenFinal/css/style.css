@@ -1,0 +1,267 @@
+/* css */
+/* Par amelie leduc */
+/* 17 juillet 2020 */
+
+header {
+    position: relative;
+    background-image: url("../img/paysage.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+a{
+    text-underline: none;
+    color: #5a6268;
+}
+
+a:hover{
+    color: #32383e;
+}
+
+hr{
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+
+h1{
+    text-align: left;
+    font-size: 3rem;
+    padding-left: 2rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+    color: #5a6268;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 15rem;
+    color: #5a6268;
+}
+
+h3{
+    color: #5a6268;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+h4, h5{
+    color: #5a6268;
+    margin-top: 2rem;
+
+}
+
+
+h6 a:link, h6 a:visited {
+    margin-bottom: 3rem;
+    color: #138496;
+    font-size: 1rem;
+}
+
+h6 a:hover {
+    color: lightgrey;
+}
+
+
+
+.dej{
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+}
+
+#section1{
+    background-image:url("../img/dejeuner.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+}
+
+#section2{
+    background-image:url("../img/ipad.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+
+.infolettre{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+
+.pt-5{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn{
+    border-color: #5a6268;
+    background-color: #5a6268;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+.fa, .fas{
+    color: #4e555b;
+}
+
+.fal fa{
+    color: #6c757d;
+}
+
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/texture3.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid2{
+    background-color: white;
+}
+
+
+.deux{
+    background-image: url("../img/lampe.jpg");
+}
+
+.trois{
+    background-image: url("../img/room2.jpg");
+}
+
+.quatre{
+    background-image: url("../img/food.jpg");
+}
+
+.cinque{
+    background-image: url("../img/band.jpg");
+}
+
+.six{
+    background-image: url("../img/produit.jpg");
+}
+
+
+.huit{
+    background-image: url("../img/plante.jpg");
+}
+
+
+.texteblanc{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 15rem;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.icon{
+  padding-left: 60rem;
+}
+
+.form-control{
+    border-color: #5a6268;
+    color: #5a6268;
+}
+
+
+.court{
+    border-color: #5a6268;
+    color: #5a6268;
+    width: 21rem;
+}
+
+
+.textepropos{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.header2{
+    background-image: url("../img/paysage.jpg");
+}
+
+.header3{
+    background-image: url("../img/relax.jpg");
+}
+
+
+.pluszize{
+    height: 10rem;
+}
+
+
+@media only screen and (max-width: 480px){
+    .textedecouvrir{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+
+    .titredecouvrir{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+
+    .ensavoirplus{
+        margin-right: 4rem;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .header2{
+        background-image: url("../img/cour2.jpg");
+    }
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    .textedecouvrir{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .titredecouvrir{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .ensavoirplus{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .header2{
+        background-image: url("../img/femme3.jpg");
+    }
+}
+
