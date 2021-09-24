@@ -1,6 +1,9 @@
 /* css */
 /* Par amelie leduc */
-/* 17 juillet 2020 */
+/* 23 septembre 2021 */
+
+
+
 
 header {
     position: relative;
@@ -36,6 +39,7 @@ h1{
     font-size: 2.5rem;
     margin-top: 2rem;
     color: #5a6268;
+    font-family:'roboto';
 }
 
 
@@ -53,9 +57,15 @@ h3{
 }
 
 h4{
-    color: white;
+    color: #5a6268;
     font-size: 1rem;
 
+}
+
+h5{
+    text-align: center;
+    color: white;
+    font-size: 1rem; 
 }
 
 
@@ -185,7 +195,9 @@ p{
     height: 10rem;
 }
 
-
+.container {
+    align-content: space-between;
+  }
 
 
 
